@@ -28,6 +28,35 @@
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"/>
 
+            <EditText
+                android:hint="Username"
+                android:layout_width="300dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:hint="Email"
+                android:layout_width="300dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:hint="Password"
+                android:layout_width="300dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:text="SIGN UP"
+                android:textColor="@color/colorWhite"/>
+
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
